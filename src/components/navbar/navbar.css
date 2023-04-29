@@ -14,6 +14,7 @@
 
 .gpt3__navbar-links_logo {
   margin-right: 2rem;
+  cursor: pointer;
 }
 
 .gpt3__navbar-links_logo img {
@@ -88,6 +89,7 @@
 
 .gpt3__navbar-menu_container p{
     margin: 1rem 0;
+    font-size: 1rem;
 }
 
 .gpt3__navbar-menu_container-links-sign{
@@ -106,6 +108,10 @@
     .gpt3__navbar{
         padding: 2rem 3rem;
     }
+    .gpt3__navbar-sign p, .gpt3__navbar-sign button{
+        font-size: 16px;
+        line-height: 21px;
+    }
 }
 
 @media screen and (max-width: 550px){
@@ -122,6 +128,13 @@
 
     .gpt3__navbar-menu_container-links-sign{
         display: block;
+        margin-top: 2rem;
+    }
+
+    .gpt3__navbar-menu_container button{
+      font-size: 16px;
+      line-height: 21px;
+      padding: 0.8rem 1rem;
     }
 
     

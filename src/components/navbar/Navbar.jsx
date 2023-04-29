@@ -4,8 +4,6 @@ import Logo from "../../assets/logo.svg";
 
 import "./navbar.css";
 
-// BEM --> Block Element Modifier
-
 const Menu = () => {
   return (
     <>
@@ -19,10 +17,10 @@ const Menu = () => {
         <a href="#features">Open AI</a>
       </p>
       <p>
-        <a href="/">Case Studies</a>
+        <a href="#possibility">Case Studies</a>
       </p>
       <p>
-        <a href="/">Library</a>
+        <a href="#blog">Library</a>
       </p>
     </>
   );
